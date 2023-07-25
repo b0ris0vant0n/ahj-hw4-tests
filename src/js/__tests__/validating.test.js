@@ -1,6 +1,6 @@
 import validate from '../validating'
 
-test.each([
+test.each( [
   ['Valid', '4276550037212597', true],
   ['Not valid 1','2232134345', false],
   ['Not valid 2','42256', false],

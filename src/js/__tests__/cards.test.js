@@ -12,5 +12,6 @@ test.each( [
     ('shoulde be %s'),
     (_, value, expected) => {
       const result = typeOfCard(value)
+      
     expect(result).toBe(expected)
   })
